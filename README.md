@@ -68,10 +68,10 @@ Download (or git pull) the code in Beaglebone Black.
 
 Compile the c program.
 ```cpp
-$>gcc TMD2771.c -o TMD2771
+$>gcc ADC121C_HIH4030.c -o ADC121C_HIH4030
 ```
 Run the c program.
 ```cpp
-$>./TMD2771
+$>./ADC121C_HIH4030
 ```
 #####The code output is the relative humidity in %RH.
