@@ -10,7 +10,7 @@
 // ADC121C_HIH4030 I2C address is 0x50(80)
 #define Addr 0x50
 
-float humidity = 0.0;
+double humidity = 0.0;
 void setup()
 {
   // Set variable
@@ -52,5 +52,5 @@ void loop()
 
   // Output data to dashboard
   Particle.publish("Relative Humidity : ", String(humidity));
-  delay(500);
+  delay(1000);
 }
